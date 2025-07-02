@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Merriweather, Playfair_Display } from "next/font/google";
+import Footer from "./components/Footer";
 
 
 
@@ -45,6 +46,7 @@ export default function RootLayout({
       <body className={`${merri.variable} ${playfair.variable} antialiased`}>
       
         {children}
+   
       </body>
     </html>
   );
