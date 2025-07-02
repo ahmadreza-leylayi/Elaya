@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Merriweather, Playfair_Display } from "next/font/google";
-import Footer from "./components/Footer";
 
 
 
